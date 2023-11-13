@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Ph.D. student, University of Washington
 
 profile:
   align: right
@@ -15,8 +15,9 @@ latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am a first-year Ph.D. stuent in the [Human-Centered Design & Engineering](https://www.hcde.washington.edu/) at the [University of Washington](https://www.washington.edu/), advised by Prof. [Gary Hsieh](https://faculty.washington.edu/garyhs/) and Prof. [Sean A. Munson](https://www.smunson.com/). 
+I am a first-year Ph.D. student in the [Human-Centered Design & Engineering](https://www.hcde.washington.edu/) at the [University of Washington](https://www.washington.edu/), advised by Profs. [Gary Hsieh](https://faculty.washington.edu/garyhs/) and [Sean A. Munson](https://www.smunson.com/). 
 
 
+My research primarily focuses on designing and building LLM-infused systems to advocate for positive behavior. Specifically, some of my recent works include: (i) understanding how the personas in LLM affect the credibility of the contents and (ii) exploring the roles of LLMs in making science communication more accessible and trustworthy.
 
-My research interests are designing and building user-friendly systems that enhance online experiences. Also, I aim to harness computational methods to advocate for positive behavior and address health-related issues experienced by marginalized populations.
+Prior to joining UW, I did my undergrad in CS (minor in Statistics) at Ewha Womans University. I also worked at the [Dynamic Graphics Project Lab](https://www.dgp.toronto.edu/) at the University of Toronto and the HCI Lab at Ewha Womans University as an undergraduate research assistant.

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-09-27 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Excited to share that I just started my Ph.D. journey at UW HCDE!!
