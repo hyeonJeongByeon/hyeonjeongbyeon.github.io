@@ -33,6 +33,10 @@
         <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
         <!-- Title -->
         <div class="title">{{entry.title}}</div>
+        <!-- Book Title -->
+        <div class="booktitle">{{entry.booktitle}}</div>
+        <!-- Journal -->
+        <div class="journal">{{entry.journal}}</div>
         <!-- Author -->
         <div class="author">
           {% assign author_array_size = entry.author_array | size %}
