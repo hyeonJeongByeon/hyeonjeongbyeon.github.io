@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Excited to share that I just started my Ph.D. journey at UW HCDE!!
+Started my first day of grad school :sunglasses:
