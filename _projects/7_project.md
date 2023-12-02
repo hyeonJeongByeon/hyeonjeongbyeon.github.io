@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Song signing
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: College festival website
+description: 
+img: assets/img/festival.jpg
+importance: 7
 category: completed
 ---
 

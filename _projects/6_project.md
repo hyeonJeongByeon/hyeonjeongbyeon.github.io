@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: Mental health distresser detection
+description: Using language models to detect mental health distressers from text
 img:
 importance: 4
-category: previous
+category: completed
 ---
 
 Every project has a beautiful feature showcase page.

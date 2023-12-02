@@ -1,12 +1,12 @@
             {%- if site.email -%}
-            <a href="mailto:hjbyeon@uw.edu" title="email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
             {% endif %}
             {%- if site.scholar_userid -%}
-            <a href="https://scholar.google.com/citations?user=6CrnmR0AAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+            <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
             {% endif %}
             {%- if site.github_username -%}
-            <a href="https://github.com/hyeonJeongByeon" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
             {% endif %}
             {%- if site.linkedin_username -%}
-            <a href="https://www.linkedin.com/in/hyeonjeong-byeon/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
             {% endif %}

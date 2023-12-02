@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: AVOTAR (Avatar + Voice)
+description: A voice customization website
 img:
 importance: 3
-category: previous
+category: completed
 ---
 
 Every project has a beautiful feature showcase page.
