@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Song signing
-description: a project that redirects to another website
+title: Music accessibility
+description: Using ASL to make music more accessible
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
