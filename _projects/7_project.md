@@ -1,7 +1,7 @@
 ---
 layout: page
 title: College festival website
-description: 
+description: Making college festivals more accessible with websites
 img: assets/img/festival.jpg
 importance: 7
 category: completed

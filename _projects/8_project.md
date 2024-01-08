@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bibliotherapy & AI
-description: Applying AI and personal informatics to bibliotherapy
+description: Applying generative AI and personal informatics to bibliotherapy
 img: assets/img/10.jpg
 importance: 3
 category: in progress

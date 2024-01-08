@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Chatbot personas & Credibility
-description: Exploring the most credible conversational setting using chatbots
+description: Exploring the most credible conversational settings during information search tasks
 img: assets/img/12.jpg
 importance: 1
 category: in progress

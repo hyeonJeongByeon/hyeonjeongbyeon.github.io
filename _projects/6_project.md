@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Mental health distresser detection
-description: Using language models to detect mental health distressers from text
-img:
-importance: 4
+description: Using language models to detect mental health distressers from ePAT data
+img: assets/img/bert.png
+importance: 2
 category: completed
 ---
 

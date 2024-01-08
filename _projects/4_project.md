@@ -1,8 +1,8 @@
 ---
 layout: page
 title: AVOTAR (Avatar + Voice)
-description: A voice customization website
-img:
+description: Supporting customizable voice personas for online communication
+img: assets/img/avocus.png
 importance: 3
 category: completed
 ---

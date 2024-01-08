@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Prototyping voice search engines
-description: 
-img: assets/img/1.jpg
+title: Voice search engine protoytpes
+description: Designing prototypes for voice search in voice databases
+img: assets/img/prototype.png
 importance: 3
 category: completed
 ---
