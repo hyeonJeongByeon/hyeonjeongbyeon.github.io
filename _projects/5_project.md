@@ -5,7 +5,7 @@ description: Designing prototypes for voice search in voice databases
 img: assets/img/prototype.png
 importance: 3
 category: completed
-related_publictions: byeon2021voice, byeon2021voice
+related_publications: byeon2022voice, byeon2021voice, byeon2021voice
 ---
 
 Every project has a beautiful feature showcase page.

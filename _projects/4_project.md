@@ -5,7 +5,7 @@ description: Supporting customizable voice personas for online communication
 img: assets/img/avocus.png
 importance: 3
 category: completed
-related_publications: byeon2023avocus
+related_publications: byeon2023avocus, byeon2022voice
 ---
 
 Every project has a beautiful feature showcase page.

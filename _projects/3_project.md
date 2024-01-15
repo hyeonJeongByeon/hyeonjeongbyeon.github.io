@@ -6,6 +6,7 @@ img: assets/img/layers.jpg
 redirect: 
 importance: 4
 category: completed
+related_publications: yoo2023understanding
 ---
 
 Every project has a beautiful feature showcase page.
