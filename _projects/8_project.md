@@ -2,10 +2,9 @@
 layout: page
 title: Bibliotherapy & AI
 description: Applying generative AI and personal informatics to bibliotherapy
-img: assets/img/10.jpg
+img: assets/img/bibliotherapy.png
 importance: 3
 category: in progress
-related_publications: einstein1956investigations, einstein1950meaning
 ---
 
 Every project has a beautiful feature showcase page.

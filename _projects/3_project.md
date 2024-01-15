@@ -3,7 +3,7 @@ layout: page
 title: Music accessibility
 description: Using ASL to make music more accessible
 img: assets/img/layers.jpg
-redirect: https://unsplash.com
+redirect: 
 importance: 4
 category: completed
 ---

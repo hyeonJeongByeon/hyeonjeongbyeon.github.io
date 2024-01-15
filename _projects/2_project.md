@@ -2,7 +2,7 @@
 layout: page
 title: AI generated content & Credibility
 description: Supporting scientific communication using generative AI
-img: assets/img/3.jpg
+img: assets/img/science.png
 importance: 2
 category: in progress
 giscus_comments: true

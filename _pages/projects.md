@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Thesedays, I am studying how personas of LLM-driven conversational agents can impact Human-AI interaction in diverse contexts.  
+description: I am currently studying how LLM-driven conversational agents' personas can impact human-AI interaction in diverse contexts.  
 nav: true
 nav_order: 2
 display_categories: [in progress, completed]
