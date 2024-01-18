@@ -8,18 +8,49 @@ category: completed
 ---
 
 ## Overview
-The College Festival Website project focuses on enhancing the accessibility and enjoyment of college festivals through an online platform. 
+Episode, Ewha project focuses on enhancing the accessibility and enjoyment of college festivals through an online platform.
+
+<br>
 
 ### Visit Our Website
 For a detailed experience of our project and its features, visit the website:
 
 [Episode, Ewha](http://ewhafestival2019.herokuapp.com/) - (Note: This link is currently closed)
 
-### Project Highlights
-- Detail key aspects of the project, such as website features, user engagement strategies, and the impact on festival accessibility.
+<br>
 
 ### Image Showcase
-- Include images or screenshots of the website, festival highlights, etc.
+- Screenshot of the first page of Episode, Ewha 
 
-### Additional Information
-- Further details about the project, your team, and any acknowledgments.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/episode1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/episode2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/episode3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<br>
+
+- Detailed functions of Episode, Ewha
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/episode4.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/episode5.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/episode6.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<br>
+
+### My role
+- I took part as a member of the back-end development team.

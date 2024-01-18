@@ -3,7 +3,7 @@ layout: page
 title: AVOTAR (Avatar + Voice)
 description: Supporting customizable voice personas for online communication
 img: assets/img/avocus.png
-importance: 3
+importance: 2
 category: completed
 related_publications: byeon2023avocus, byeon2022voice
 ---
