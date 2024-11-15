@@ -1,81 +1,33 @@
 ---
 layout: page
-title: AI generated content & Credibility
-description: Supporting scientific communication using generative AI
+title: AI Journalism & Credibility
+description: Using Generative AI to translate scientific papers into news articles
 img: assets/img/science.png
 importance: 2
 category: in progress
-giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Motivation
+Machine authorship, where software or programming is the primary creator of news articles (Danzon-Chambaud, 2021; Lewis, 2019), is a topic of ongoing debate. Scholars hold differing views on how machine authorship impacts news audiences’ perceptions, with results varying significantly across studies. This inconsistency may stem from individual differences among study participants, suggesting that future research might continue to yield varied outcomes rather than a unified consensus. From a theoretical perspective, the MAIN model (Sundar, 2008) suggests that people’s pre-existing beliefs about machines, shaped by their knowledge and experience, influence their perceptions. When engaging with machine-generated content, these beliefs often activate "machine heuristics"—mental shortcuts triggered by machine interface cues.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<br>
+<br>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Study design
+We used the GPT-4 Turbo model to create AI-authored news articles. The model’s input consisted of published articles, with the goal of generating summaries in short paragraphs for a general audience. Specific guidelines instructed the model to refer to the original authors in the third person (e.g., "the authors" or "the researchers") and to ensure accessibility for a wider public audience. All provided quotes were required to be incorporated directly into the output.
 
+These AI-generated articles were then compared to the original scientific articles written by journalists based on the same published papers.
+
+<br>
+<br>
+
+## Hypothesized Framework
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/diagram.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+<br>
+<br>

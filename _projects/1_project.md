@@ -6,11 +6,17 @@ img: assets/img/t1-he.png
 importance: 1
 category: in progress
 ---
+## Abstract
 
-Motivation: 
+The rise of LLMs has ushered in a wave of conversational search engines. These interfaces allow people to engage in dialogues with LLM-infused chatbots to seek information. However, as people tend to infer personalities from digital social interactions, and given that personalities have been shown to affect credibility, these perceptions of chatbot design may affect assessments of information credibility. In this study, we conducted a controlled online study with 190 participants. We found that in conversational search, perceived conscientiousness and agreeableness of a chatbot can increase credibility, while perceived extraversion and neuroticism can decrease the credibility of the search results. This research contributes to our understanding of how conversational interfaces and their personality and persona designs can impact credibility. We also provide design implications for conversational search interfaces based on our findings.
 
 
-Sample images:
+<br>
+
+
+## Sample conversational exchanges
+<br>
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -23,38 +29,6 @@ Sample images:
         {% include figure.html path="assets/img/t1-le.png" title="Chatbot C" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Three different responses 
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
+<br>
+<br>

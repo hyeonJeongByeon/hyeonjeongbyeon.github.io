@@ -1,81 +1,32 @@
 ---
 layout: page
-title: AVOTAR (Avatar + Voice)
+title: Voice Customization
 description: Supporting customizable voice personas for online communication
 img: assets/img/avocus.png
 importance: 2
 category: completed
 related_publications: byeon2023avocus, byeon2022voice
 ---
+## Abstract
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Many digital applications offer avatar customization options, positively affecting user experience. However, the adoption of auditory aspects in avatar customization has often been neglected and may have been understudied for its potential. Inspired by prior research that uncovers end-user’s demands for voice customization, we seek to apply the identified implications into practice and discover enduser’s voice preferences and behavior towards voice customization systems. To this end, we designed and deployed AVOCUS, a web application that enables users to search for specific voices or manipulate voice-related parameters to generate a voice similar to a target voice. Our findings suggest that (1) searching for specific voice using hashtags were perceived to be easy, (2) customized voices generated from voice reflection and voice parameter control functions had high satisfaction, and (3) participants tend to reflect the features of their desired voices when customizing their own voice.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<br>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Project Overview
+As a follow-up study to our CHI 22 publication, we developed a voice customizing web app and conducted user testing. In this app, users can upload a target voice they wish to resemble, and either upload their own voice or record it directly through the interface. By adjusting the similarity to the target voice and fine-tuning specific attribute values, the app generates a customized voice output within seconds. Although traditional voice generation typically requires AI models and large datasets, this study is significant in presenting an alternative approach that does not rely on such resources.
 
+<br>
+
+
+## System Overview
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/avocus.png" title="Search Engine Interface" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+<br>
+<br>
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
