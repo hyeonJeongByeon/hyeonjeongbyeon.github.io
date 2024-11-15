@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Chatbot personas & Credibility
+title: Chatbot Personas & Credibility
 description: Exploring the most credible conversational settings during information search tasks
 img: assets/img/t1-he.png
 importance: 1

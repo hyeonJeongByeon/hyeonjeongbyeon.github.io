@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Music accessibility
+title: Music Accessibility
 description: Using ASL to make music more accessible
 img: assets/img/layers.jpg
 redirect: 
