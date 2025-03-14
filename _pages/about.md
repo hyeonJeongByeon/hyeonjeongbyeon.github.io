@@ -6,7 +6,7 @@ subtitle: Ph.D. student, University of Washington
 
 profile:
   align: right
-  image: IMG_2785.jpg
+  image: img_mar14.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
 
