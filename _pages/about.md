@@ -6,7 +6,7 @@ subtitle: Ph.D. student, University of Washington
 
 profile:
   align: right
-  image: Hyeonjeong_profile_pic.jpg
+  image: IMG_2785.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
