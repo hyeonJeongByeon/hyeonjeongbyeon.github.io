@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. student, University of Washington
+subtitle: HCI Researcher, University of Washington
 
 profile:
   align: right
