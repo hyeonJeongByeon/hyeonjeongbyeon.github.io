@@ -77,9 +77,6 @@
 
               <!-- Other pages -->
               <li class="nav-item ">
-                <a class="nav-link" href="/publications/">publications</a>
-              </li>
-              <li class="nav-item ">
                 <a class="nav-link" href="/projects/">projects</a>
               </li>
 <li class="nav-item ">
@@ -157,7 +154,25 @@ sequenceDiagram
 </code></pre></div></div>
 
 <div class="jekyll-diagrams diagrams mermaid">
-  Command Not Found: mmdc
+  Rendering Failed: mmdc --puppeteerConfigFile /Users/byeonhyeonjeong/Documents/GitHub/hyeonjeongbyeon.github.io/vendor/bundle/ruby/3.2.0/gems/jekyll-diagrams-0.10.0/vendor/mermaid_puppeteer_config.json --input /var/folders/9w/j82d_7t91ldg71frtdzb1_zm0000gn/T/input20250724-40036-3d68ji --output /var/folders/9w/j82d_7t91ldg71frtdzb1_zm0000gn/T/output20250724-40036-at6sad.svg: [1m[43m[30m
+  Degraded performance warning:[0m[33m
+  Launching Chrome on Mac Silicon (arm64) from an x64 Node installation results in
+  Rosetta translating the Chrome binary, even if Chrome is already arm64. This would
+  result in huge performance issues. To resolve this, you must run Puppeteer with
+  a version of Node built for arm64.
+
+Error: Could not find Chrome (ver. 131.0.6778.204). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome-headless-shell`) or
+ 2. your cache path is incorrectly configured (which is: /Users/byeonhyeonjeong/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+    at ChromeLauncher.resolveExecutablePath (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/node/BrowserLauncher.js:266:27)
+    at ChromeLauncher.computeLaunchArguments (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/node/ChromeLauncher.js:85:24)
+    at async ChromeLauncher.launch (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/node/BrowserLauncher.js:45:28)
+    at async run (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/src/index.js:500:17)
+    at async cli (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/src/index.js:202:3)
+
+
+
 </div>
 
 
@@ -214,7 +229,7 @@ sequenceDiagram
     <!--    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2024 Hyeonjeong  Byeon. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+        &copy; Copyright 2025 Hyeonjeong  Byeon. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
       </div>
     </footer> -->

@@ -15,9 +15,12 @@ latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am a second year Ph.D. student in the [Human-Centered Design & Engineering](https://www.hcde.washington.edu/) at the [University of Washington](https://www.washington.edu/), advised by Professors [Gary Hsieh](https://faculty.washington.edu/garyhs/) and [Sean A. Munson](https://www.smunson.com/). 
+I am a second year Ph.D. student in the [Human-Centered Design & Engineering](https://www.hcde.washington.edu/) at the [University of Washington](https://www.washington.edu/), advised by Professors [Gary Hsieh](https://faculty.washington.edu/garyhs/) and [Sean A. Munson](https://www.smunson.com/). I am also a [Social Entrepreneurship Fellow](https://www.washington.edu/populationhealth/education-and-training/social-entrepreneurship-fellowship/) through the [Population Health Initiative](https://www.washington.edu/populationhealth/), collaborating with Professor [Weichao Yuwen](https://directory.tacoma.uw.edu/employee/wyuwen).
 
-My research primarily focuses on designing and building LLM-infused systems that encourage people to communicate and interact in ways that are self- and welfare-improving. I extend and build on social science theories and empirically evaluate the effects of these systems. My application areas include behavior change, healthcare, information search, and scientific communication. 
+My research focuses on designing conversational systems that facilitate effective communication between general users and domain experts, especially in contexts where scientific information, credibility, and health are involved. I empirically evaluate the effects of these systems in real or simulated use contexts.
+
+
+<!--My research primarily focuses on designing and building LLM-infused systems that encourage people to communicate and interact in ways that are self- and welfare-improving. I extend and build on social science theories and empirically evaluate the effects of these systems. My application areas include behavior change, healthcare, information search, and scientific communication.--> 
 
 <!--My research primarily focuses on designing and building LLM-infused systems to advocate for positive behavior. Specifically, some of my recent works include: (i) understanding how the personas in LLM affect the credibility of the contents and (ii) exploring the roles of LLMs in making science communication more accessible and trustworthy. -->
 
