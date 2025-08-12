@@ -84,6 +84,7 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+              {% comment %}
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
                 <a class="nav-link" href="{{ 'assets/pdf/cv.pdf' | relative_url }}">cv
                   {%- if page.title == p.title -%}
@@ -91,6 +92,8 @@
                   {%- endif -%}
                 </a>
               </li>
+              {% endcomment %}
+
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->

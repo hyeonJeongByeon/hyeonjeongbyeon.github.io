@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: I am currently studying how LLM-driven conversational agents' personas can impact human-AI interaction in diverse contexts.  
-nav: true
+nav: false
 nav_order: 2
 display_categories: [in progress, completed]
 horizontal: false
