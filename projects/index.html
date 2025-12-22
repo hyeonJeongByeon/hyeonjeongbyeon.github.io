@@ -12,7 +12,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>projects | Hyeonjeong Byeon</title>
     <meta name="author" content="Hyeonjeong  Byeon">
-    <meta name="description" content="I am currently studying how LLM-driven conversational agents' personas can impact human-AI interaction in diverse contexts.">
+    <meta name="description" content="Website of Hyeonjeong
+">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -35,7 +36,7 @@
 
     <!-- Styles -->
     
-    <link rel="shortcut icon" href="/assets/img/HelloKitty.png?f6efb235e03496df3d820833ed15d4cc">
+    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
     <link rel="canonical" href="https://hyeonjeongbyeon.com/projects/">
@@ -72,11 +73,17 @@
 
               <!-- Home -->
               <li class="nav-item ">
-                <a class="nav-link" href="/">
-              </a>
-</li>
+                <a class="nav-link" href="/">home</a>
+              </li>
+
 
               <!-- Other pages -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/projects/">projects<span class="sr-only">(current)</span></a>
+              </li>
+<li class="nav-item ">
+                <a class="nav-link" href="/assets/pdf/Hyeonjeong_Byeon_CV.pdf">cv</a>
+              </li>
 
               <!-- Toogle theme mode -->
               <li class="toggle-container">
@@ -107,84 +114,109 @@
 
   <header class="post-header">
     <h1 class="post-title">projects</h1>
-    <p class="post-description">I am currently studying how LLM-driven conversational agents' personas can impact human-AI interaction in diverse contexts.</p>
+    <p class="post-description"></p>
   </header>
 
   <article>
-    <!-- pages/projects.md -->
-<div class="projects">
-  <!-- Display categorized projects -->
-  <h2 class="category">in progress</h2>
-  <!-- Generate cards for each project -->
-  <div class="grid">
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/2_project/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
+    <div class="projects projects-accordion">
+<div class="project-card" data-project-id="1-project">
+  <button class="project-toggle">
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/science-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/science-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/science-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/science.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">AI Journalism &amp; Credibility</h2>
-          <p class="card-text">Using Generative AI to translate scientific papers into news articles</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
+      <div class="project-thumb">
+        <img src="/assets/img/science.png" alt="AI Journalism &amp; Credibility">
       </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/9_project/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/health-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/health-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/health-1400.webp"></source>
+    <div class="project-header-text">
+      <h3 class="project-title">AI Journalism &amp; Credibility</h3>
+      
+  <div class="project-keywords">
     
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/health.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Client &amp; Clinician Match</h2>
-          <p class="card-text">Exploring opportunities to support better clinical communication</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
+      <span class="project-pill">Automated journalism</span>
+    
+      <span class="project-pill">Machine heuristics</span>
+    
+      <span class="project-pill">Source Credibility Theory</span>
+    
+      <span class="project-pill">TIME-HAII Model</span>
+    
   </div>
-  <h2 class="category">completed</h2>
-  <!-- Generate cards for each project -->
-  <div class="grid">
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/1_project/">
-      <div class="card hoverable">
-<figure>
+
+
+    </div>
+    <span class="project-toggle-icon">+</span>
+  </button>
+
+  <div class="project-body">
+    <div class="project-long-description">
+      <div class="p-row">
+  <div class="p-label">Summary</div>
+  <div class="p-value">
+With recent advancements in generative AI, we witness AIs playing an increasing role in areas such as news writing and publication. Some people find human-written articles more credible compared to AI-written ones, while others do not. 
+To investigate this variability, we draw on the concept of machine heuristics---a mental shortcut where individuals apply common stereotypes about machines when making judgments about an interaction’s outcome. We conduct an online experiment with 381 participants, asking them to assess the credibility of science news articles that are labeled as either being written by a human journalist or generative AI (labeled author), while both articles were actually written by either a human or the AI (actual author).
+Our findings reveal that on average, participants considered labeled-human authors as more credible than labeled-AI authors, regardless of the actual authorship of these articles. However, this effect is moderated by machine heuristics; the stronger the machine heuristic, the more credible the labeled-AI authors were perceived to be. Understanding these dynamics is critical for designing transparent communication and labeling practices for fostering appropriate trust in AI-generated content.
+  </div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">My role</div>
+  <div class="p-value">Project lead </div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">Collaborators</div>
+  <div class="p-value">Katelyn Mei, Donghoon Shin, Spencer Williams, Lucy Lu Wang, Gary Hsieh</div>
+</div>
+
+
+    </div>
+  </div>
+</div>
+<div class="project-card" data-project-id="2-project">
+  <button class="project-toggle">
+    
+      <div class="project-thumb">
+        <img src="/assets/img/t1-he.png" alt="Chatbot Personas &amp; Credibility">
+      </div>
+    
+    <div class="project-header-text">
+      <h3 class="project-title">Chatbot Personas &amp; Credibility</h3>
+      
+  <div class="project-keywords">
+    
+      <span class="project-pill">Conversational search</span>
+    
+  </div>
+
+
+    </div>
+    <span class="project-toggle-icon">+</span>
+  </button>
+
+  <div class="project-body">
+    <div class="project-long-description">
+      <div class="p-row">
+  <div class="p-label">Summary</div>
+  <div class="p-value">
+The rise of LLMs has ushered in a wave of conversational search engines. These interfaces allow people to engage in dialogues with LLM-infused chatbots to seek information. However, as people tend to infer personalities from digital social interactions, and given that personalities have been shown to affect credibility, these perceptions of chatbot design may affect assessments of information credibility. In this study, we conducted a controlled online study with 190 participants. We found that in conversational search, perceived conscientiousness and agreeableness of a chatbot can increase credibility, while perceived extraversion and neuroticism can decrease the credibility of the search results. This research contributes to our understanding of how conversational interfaces and their personality and persona designs can impact credibility. We also provide design implications for conversational search interfaces based on our findings.
+  </div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">My role</div>
+  <div class="p-value">Project lead </div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">Collaborators</div>
+  <div class="p-value">Uran Oh, Gary Hsieh</div>
+</div>
+
+<h3 id="sample-conversational-exchanges">Sample conversational exchanges</h3>
+<p><br></p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
 
   <picture>
     
@@ -194,26 +226,360 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/t1-he.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/t1-he.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Chatbot A" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Chatbot Personas &amp; Credibility</h2>
-          <p class="card-text">Exploring the most credible conversational settings during information search tasks</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/t1-be-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/t1-be-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/t1-be-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/t1-be.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Chatbot B" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/t1-le-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/t1-le-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/t1-le-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/t1-le.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Chatbot C" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+</figure>
+
+    </div>
 </div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/4_project/">
-      <div class="card hoverable">
-<figure>
+
+<p><br>
+<br></p>
+
+    </div>
+  </div>
+</div>
+<div class="project-card" data-project-id="3-project">
+  <button class="project-toggle">
+    
+      <div class="project-thumb">
+        <img src="/assets/img/PACE-prototype.png" alt="Communication Training Chatbots">
+      </div>
+    
+    <div class="project-header-text">
+      <h3 class="project-title">Communication Training Chatbots</h3>
+      
+  <div class="project-keywords">
+    
+      <span class="project-pill">Conversation design</span>
+    
+      <span class="project-pill">Communication skills training</span>
+    
+      <span class="project-pill">Multi-agent LLM systems</span>
+    
+  </div>
+
+
+    </div>
+    <span class="project-toggle-icon">+</span>
+  </button>
+
+  <div class="project-body">
+    <div class="project-long-description">
+      <div class="p-row">
+  <div class="p-label">Summary</div>
+  <div class="p-value">
+This project examines the role of interactivity enabled by LLM-based agents in communication skills training, focusing on patient communication in healthcare. Conversational agents can provide realistic role-play and feedback, yet prior work
+has largely emphasized training providers rather than patients. As patient–doctor relationships shift toward a cooperative model, patients’ active communication skills have become increasingly important but remain under-supported. Grounded in the validated PACE framework, we propose a scalable, interactive intervention system to address this gap in patient communication training.
+  </div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">My role</div>
+  <div class="p-value">Project lead</div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">Collaborators</div>
+  <div class="p-value">Sean A. Munson, Gary Hsieh</div>
+</div>
+
+
+    </div>
+  </div>
+</div>
+<div class="project-card" data-project-id="4-project">
+  <button class="project-toggle">
+    
+      <div class="project-thumb">
+        <img src="/assets/img/paper-prototype.png" alt="Science Communication Through Short-form Videos">
+      </div>
+    
+    <div class="project-header-text">
+      <h3 class="project-title">Science Communication Through Short-form Videos</h3>
+      
+  <div class="project-keywords">
+    
+      <span class="project-pill">Credibility</span>
+    
+      <span class="project-pill">Science communication</span>
+    
+      <span class="project-pill">Translational science</span>
+    
+      <span class="project-pill">Generative AI tools</span>
+    
+  </div>
+
+
+    </div>
+    <span class="project-toggle-icon">+</span>
+  </button>
+
+  <div class="project-body">
+    <div class="project-long-description">
+      <div class="p-row">
+  <div class="p-label">Summary</div>
+  <div class="p-value">
+The dissemination of scholarly research is critical, yet researchers often lack the time and skills to create engaging content for popular media like short-form videos. To bridge this gap, we explore the use of generative AI to help researchers transform their academic papers into accessible, short-form videos. Informed by our formative study (N=8) with science communicators and content creators, we designed PaperTok, an end-to-end system that generates an integrated first draft through automating the initial creative labor by generating script options and corresponding audiovisual content from a source paper. Then, the researcher refines based on their preferences with further prompting. A mixed-methods user study (N=18) and crowdsourced evaluation (N=100) demonstrate that PaperTok's workflow can help researchers create engaging and informative short-form videos. We also identified the need for more fine-grained controls in the creation process. To this end, we offer implications for future generative tools that support science outreach.
+
+  </div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">My role</div>
+  <div class="p-value">
+  Examined credibility and the role of human input in AI-assisted science communication. Conducted interviews with science communicators and content creators, and usability studies with HCI researchers to understand how human involvement shapes trust and quality.
+</div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">Collaborators</div>
+  <div class="p-value">Members of the Prosocial Computing Lab with equal contribution</div>
+</div>
+
+
+    </div>
+  </div>
+</div>
+<div class="project-card" data-project-id="5-project">
+  <button class="project-toggle">
+    
+      <div class="project-thumb">
+        <img src="/assets/img/VSA-pipeline.png" alt="Virtual Study Assistant">
+      </div>
+    
+    <div class="project-header-text">
+      <h3 class="project-title">Virtual Study Assistant</h3>
+      
+  <div class="project-keywords">
+    
+      <span class="project-pill">AI &amp; Ethnography</span>
+    
+      <span class="project-pill">Human-AI Collaboration tools</span>
+    
+      <span class="project-pill">Healthcare chatbots</span>
+    
+  </div>
+
+
+    </div>
+    <span class="project-toggle-icon">+</span>
+  </button>
+
+  <div class="project-body">
+    <div class="project-long-description">
+      <div class="p-row">
+  <div class="p-label">Summary</div>
+  <div class="p-value">
+This project explores a Virtual Study Assistant (VSA) that uses generative AI to improve accessibility and participation in research studies, particularly for historically underrepresented populations. The bilingual (English–Spanish) chatbot supports recruitment, inquiries, and screening while reducing the labor required for translation and adaptation. Designed in collaboration with translational health teams, the system critically examines how AI-driven language support can expand access without reinforcing
+existing biases or inequities.
+
+  </div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">My role</div>
+  <div class="p-value">Project lead, Part of the Social Entrepreneurship Fellowship </div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">Collaborators</div>
+  <div class="p-value">Weichao Yuwen, Jennifer Shannon, Psychedabout.ai</div>
+</div>
+
+
+    </div>
+  </div>
+</div>
+<div class="project-card" data-project-id="6-project">
+  <button class="project-toggle">
+    
+      <div class="project-thumb">
+        <img src="/assets/img/AYA-prototype.png" alt="AYA-Chat">
+      </div>
+    
+    <div class="project-header-text">
+      <h3 class="project-title">AYA-Chat</h3>
+      
+  <div class="project-keywords">
+    
+      <span class="project-pill">Conversation design</span>
+    
+      <span class="project-pill">Theory-driven intervention</span>
+    
+      <span class="project-pill">Translating research to practice</span>
+    
+  </div>
+
+
+    </div>
+    <span class="project-toggle-icon">+</span>
+  </button>
+
+  <div class="project-body">
+    <div class="project-long-description">
+      <div class="p-row">
+  <div class="p-label">Summary</div>
+  <div class="p-value">
+  This project explores how theory-based intervention exercises can be translated into lightweight, everyday conversations through a text-based chatbot. Rather than standalone clinical tools, we investigate conversational designs that reduce burden and fit naturally into daily routines. Focusing on adolescent and young adult (AYA) cancer survivors, we examine how intervention content should be tailored to a specific population without over-personalizing or increasing interactional complexity. Grounded in established psychosocial theories, the work bridges research findings and practical conversational interventions.
+  </div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">My role</div>
+  <div class="p-value">Project lead</div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">Collaborators</div>
+  <div class="p-value">Seattle Children's Hospital, Nancy Lau, Gary Hsieh</div>
+</div>
+
+
+    </div>
+  </div>
+</div>
+<div class="project-card" data-project-id="7-project">
+  <button class="project-toggle">
+    
+      <div class="project-thumb">
+        <img src="/assets/img/health.png" alt="Client &amp; Clinician Match">
+      </div>
+    
+    <div class="project-header-text">
+      <h3 class="project-title">Client &amp; Clinician Match</h3>
+      
+  <div class="project-keywords">
+    
+      <span class="project-pill">Decision making</span>
+    
+      <span class="project-pill">Trust</span>
+    
+      <span class="project-pill">Persona matching</span>
+    
+      <span class="project-pill">Persona search</span>
+    
+  </div>
+
+
+    </div>
+    <span class="project-toggle-icon">+</span>
+  </button>
+
+  <div class="project-body">
+    <div class="project-long-description">
+      <div class="p-row">
+  <div class="p-label">Summary</div>
+  <div class="p-value">
+  The client-clinician relationship is crucial for the success of mental health care treatments. However, the process of finding a well-matched clinician remains challenging for many individuals, particularly those new to mental healthcare. In this study, we explore the dynamic journey of experiences and challenges clients face in navigating the clinician selection and engagement process. Through interviews with 22 participants who have interacted with multiple clinicians in the U.S., we identified key factors influencing their decisions to continue or change clinicians, as well as the resources they utilized during their search. While participants acknowledged the importance of factors previous research noted in their clinician match and therapeutic alliance, they also experienced difficulty assessing these characteristics before engagement. Our findings highlight opportunities to improve upon the process by which people match clinicians, including the limited effectiveness of existing technology and the need for personalized guidance.
+
+  </div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">My role</div>
+  <div class="p-value">Project lead</div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">Collaborators</div>
+  <div class="p-value">John C. Fortney, Sean A. Munson</div>
+</div>
+
+
+    </div>
+  </div>
+</div>
+<div class="project-card" data-project-id="8-project">
+  <button class="project-toggle">
+    
+      <div class="project-thumb">
+        <img src="/assets/img/avocus.png" alt="Voice Customization">
+      </div>
+    
+    <div class="project-header-text">
+      <h3 class="project-title">Voice Customization</h3>
+      
+  <div class="project-keywords">
+    
+      <span class="project-pill">Persona design</span>
+    
+      <span class="project-pill">Customization tool</span>
+    
+  </div>
+
+
+    </div>
+    <span class="project-toggle-icon">+</span>
+  </button>
+
+  <div class="project-body">
+    <div class="project-long-description">
+      <div class="p-row">
+  <div class="p-label">Abstract</div>
+  <div class="p-value">
+Many digital applications offer avatar customization options, positively affecting user experience. However, the adoption of auditory aspects in avatar customization has often been neglected and may have been understudied for its potential. Inspired by prior research that uncovers end-user’s demands for voice customization, we seek to apply the identified implications into practice and discover enduser’s voice preferences and behavior towards voice customization systems. To this end, we designed and deployed AVOCUS, a web application that enables users to search for specific voices or manipulate voice-related parameters to generate a voice similar to a target voice. Our findings suggest that (1) searching for specific voice using hashtags were perceived to be easy, (2) customized voices generated from voice reflection and voice parameter control functions had high satisfaction, and (3) participants tend to reflect the features of their desired voices when customizing their own voice.
+
+  </div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">Overview</div>
+  <div class="p-value">
+As a follow-up study to our CHI 22 publication, we developed a voice customizing web app and conducted user testing. In this app, users can upload a target voice they wish to resemble, and either upload their own voice or record it directly through the interface. By adjusting the similarity to the target voice and fine-tuning specific attribute values, the app generates a customized voice output within seconds. Although traditional voice generation typically requires AI models and large datasets, this study is significant in presenting an alternative approach that does not rely on such resources.
+
+  </div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">My role</div>
+  <div class="p-value">Project lead </div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">Collaborators</div>
+  <div class="p-value">Seungjin Ha, Uran Oh</div>
+</div>
+
+<h2 id="system-overview">System Overview</h2>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
 
   <picture>
     
@@ -223,26 +589,58 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/avocus.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/avocus.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Search Engine Interface" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Voice Customization</h2>
-          <p class="card-text">Supporting customizable voice personas for online communication</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    </div>
 </div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/5_project/">
-      <div class="card hoverable">
-<figure>
+
+<p><br>
+<br></p>
+
+
+    </div>
+  </div>
+</div>
+<div class="project-card" data-project-id="9-project">
+  <button class="project-toggle">
+    
+      <div class="project-thumb">
+        <img src="/assets/img/prototype.png" alt="Voice Persona Search Engine">
+      </div>
+    
+    <div class="project-header-text">
+      <h3 class="project-title">Voice Persona Search Engine</h3>
+      
+  <div class="project-keywords">
+    
+      <span class="project-pill">Voice search interface</span>
+    
+  </div>
+
+
+    </div>
+    <span class="project-toggle-icon">+</span>
+  </button>
+
+  <div class="project-body">
+    <div class="project-long-description">
+      <h2 id="abstract">Abstract</h2>
+<p>Although there is a potential demand for customizing voices, most customization is limited to the visual appearance of a figure (e.g., avatars). To better understand users’ needs, we first conducted an online survey with 104 participants. Then, we conducted a semi-structured interview with a prototype involving 14 participants to identify design considerations for supporting voice customization. The results show that there is a desire for voice customization, especially for non-face-to-face conversations with unfamiliar individuals. Additionally, findings revealed that different voices are favored for different contexts, from an enhanced version of one’s own voice for improving delivery to a completely different voice for securing identity. As future work, we plan to extend this study by investigating voice synthesis techniques for end-users who wish to design their own voices for various contexts.</p>
+
+<p><br></p>
+
+<h2 id="project-overview">Project Overview</h2>
+<p>We confirmed through a survey study that people tend to have different personas suited to various situations. Next, we identified the demand for customized voices and used Amazon mTurk crowdsourcing to collect labels for 2,140 voice samples. After designing the UI in Figma, we developed a web app that allows users to search for voices based on these labels. Finally, through a user study, we gathered feedback on the system’s usability and identified specific personas of preferred voices for different situations.</p>
+
+<p><br></p>
+
+<h2 id="prototype-design">Prototype Design</h2>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
 
   <picture>
     
@@ -252,26 +650,73 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/prototype.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/prototype.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Prototype Design" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Voice Persona Search Engine</h2>
-          <p class="card-text">Designing prototypes for voice search in voice databases</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    </div>
 </div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/3_project/">
-      <div class="card hoverable">
-<figure>
+
+<h2 id="search-engine-interface">Search Engine Interface</h2>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/search-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/search-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/search-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/search.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Search Engine Interface" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<p><br>
+<br></p>
+
+    </div>
+  </div>
+</div>
+<div class="project-card" data-project-id="10-project">
+  <button class="project-toggle">
+    
+      <div class="project-thumb">
+        <img src="/assets/img/layers.jpg" alt="Music Accessibility">
+      </div>
+    
+    <div class="project-header-text">
+      <h3 class="project-title">Music Accessibility</h3>
+      
+  <div class="project-keywords">
+    
+      <span class="project-pill">Accessibility</span>
+    
+  </div>
+
+
+    </div>
+    <span class="project-toggle-icon">+</span>
+  </button>
+
+  <div class="project-body">
+    <div class="project-long-description">
+      <h2 id="abstract">Abstract</h2>
+
+<p>Song signing is a method practiced by people who are d/Deaf and non-d/Deaf individuals to visually represent music and make music accessible through sign language and body movements. Although there is growing interest in song signing, there is a lack of understanding on what d/Deaf people value about song signing and how to make song signing productions that they would consider acceptable. We conducted semi-structured interviews with 12 d/Deaf participants to gain a deeper understanding of what they value in music and song signing. We then interviewed 14 song signers to understand their experiences and processes in creating song signing performances. From this study, we identify three complex, interrelated layers of the song signing creation process and discuss how they can be supported and completed to potentially bridge the cultural divide between the d/Deaf and non-d/Deaf audiences and guide more culturally responsive creation of music. 
+<br></p>
+
+<h2 id="layers-of-work-in-song-signing">Layers of work in song signing</h2>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
 
   <picture>
     
@@ -281,109 +726,229 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/layers.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/layers.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Music Accessibility</h2>
-          <p class="card-text">Using ASL to make music more accessible</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+    </div>
 </div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/8_project/">
-      <div class="card hoverable">
-<figure>
 
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/bibliotherapy-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/bibliotherapy-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/bibliotherapy-1400.webp"></source>
-    
+<p><br>
+<br></p>
 
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/bibliotherapy.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Bibliotherapy &amp; AI</h2>
-          <p class="card-text">Applying generative AI and personal informatics to bibliotherapy</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/6_project/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/bert-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/bert-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/bert-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/bert.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Health Distresser Detection</h2>
-          <p class="card-text">Using language models to detect mental health distressers from ePAT data</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/7_project/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/festival-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/festival-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/festival-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/festival.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">College Festival Website</h2>
-          <p class="card-text">Making college festivals more accessible by using websites</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
+    </div>
   </div>
 </div>
+<div class="project-card" data-project-id="11-project">
+  <button class="project-toggle">
+    
+      <div class="project-thumb">
+        <img src="/assets/img/bert.png" alt="Health Distresser Detection">
+      </div>
+    
+    <div class="project-header-text">
+      <h3 class="project-title">Health Distresser Detection</h3>
+      
+
+    </div>
+    <span class="project-toggle-icon">+</span>
+  </button>
+
+  <div class="project-body">
+    <div class="project-long-description">
+      <h2 id="abstract">Abstract</h2>
+
+<p>Patients often share information about their symptoms online by posting on web communities and SNS. While these posting data have been proven to be useful for improving psychological therapy experiences, little has known if and how the same approach can be applied to Korean. This paper investigates the performance of bidirectional language models. Results show that both multi-lingual BERT model and KoBERT (Korean BERT) model perform well on binary sentiment classification, reaching an accuracy of 90%. In addition, bcLSTM models outperformed on emotion recognition that classifies casual texts into Paul Ekman’s six emotions than positive/neutral/negative sentiment analysis. Through this research, we concluded that in order to utilize sentiment analysis models in psychological therapies, additional layer that detects certain psychological symptoms are necessary. As our future task, we are looking forward to propose a new deep learning model that detects emotion disorders.</p>
+
+<p><br>
+<br></p>
+
+    </div>
+  </div>
+</div>
+<div class="project-card" data-project-id="12-project">
+  <button class="project-toggle">
+    
+      <div class="project-thumb">
+        <img src="/assets/img/festival.jpg" alt="College Festival Website">
+      </div>
+    
+    <div class="project-header-text">
+      <h3 class="project-title">College Festival Website</h3>
+      
+
+    </div>
+    <span class="project-toggle-icon">+</span>
+  </button>
+
+  <div class="project-body">
+    <div class="project-long-description">
+      <h2 id="overview">Overview</h2>
+<p>Episode, Ewha project focuses on enhancing the accessibility and enjoyment of college festivals through an online platform.</p>
+
+<p><br></p>
+
+<h3 id="visit-our-website">Visit Our Website</h3>
+<p>For a detailed experience of our project and its features, visit the website:</p>
+
+<p><a href="http://ewhafestival2019.herokuapp.com/" rel="external nofollow noopener" target="_blank">Episode, Ewha</a> - (Note: This link is currently closed)</p>
+
+<p><br></p>
+
+<h3 id="image-showcase">Image Showcase</h3>
+<ul>
+  <li>Screenshot of the first page of Episode, Ewha</li>
+</ul>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/episode1-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/episode1-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/episode1-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/episode1.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/episode2-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/episode2-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/episode2-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/episode2.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/episode3-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/episode3-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/episode3-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/episode3.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<p><br></p>
+
+<ul>
+  <li>Detailed functions of Episode, Ewha</li>
+</ul>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/episode4-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/episode4-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/episode4-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/episode4.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/episode5-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/episode5-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/episode5-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/episode5.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/episode6-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/episode6-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/episode6-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/episode6.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<p><br></p>
+
+<h3 id="my-role">My role</h3>
+<ul>
+  <li>I took part as a member of the back-end development team.</li>
+</ul>
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var toggles = document.querySelectorAll('.project-card .project-toggle');
+
+  toggles.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var card = btn.closest('.project-card');
+      if (!card) return;
+
+      var isOpen = card.classList.contains('is-open');
+
+      document.querySelectorAll('.project-card.is-open').forEach(function (openCard) {
+        if (openCard !== card) openCard.classList.remove('is-open');
+      });
+
+      card.classList.toggle('is-open', !isOpen);
+    });
+  });
+});
+</script>
+
 
   </article>
 </div>
