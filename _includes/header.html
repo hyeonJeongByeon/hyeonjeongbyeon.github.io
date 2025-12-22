@@ -45,12 +45,13 @@
 
               <!-- Home -->
               <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/' | relative_url }}"🛠️
+                <a class="nav-link" href="{{ '/' | relative_url }}">home
                   {%- if page.permalink == '/' -%}
-                  <span class="sr-only">🛠️</span>
+                  <span class="sr-only">home</span>
                   {%- endif -%}
                 </a>
               </li>
+
 
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
@@ -84,15 +85,11 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
-              {% comment %}
+
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
-                <a class="nav-link" href="{{ 'assets/pdf/cv.pdf' | relative_url }}">cv
-                  {%- if page.title == p.title -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
-                </a>
+                <a class="nav-link" href="{{ '/assets/pdf/Hyeonjeong_Byeon_CV.pdf' | relative_url }}">cv</a>
               </li>
-              {% endcomment %}
+
 
               {%- if site.enable_darkmode %}
 

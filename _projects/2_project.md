@@ -1,33 +1,46 @@
 ---
 layout: page
-title: AI Journalism & Credibility
-description: Using Generative AI to translate scientific papers into news articles
-img: assets/img/science.png
+title: Chatbot Personas & Credibility
+description: Exploring the most credible conversational settings during information search tasks
+img: assets/img/t1-he.png
 importance: 2
-category: in progress
+keywords:
+  - Conversational search
 ---
-
-## Motivation
-Machine authorship, where software or programming is the primary creator of news articles (Danzon-Chambaud, 2021; Lewis, 2019), is a topic of ongoing debate. Scholars hold differing views on how machine authorship impacts news audiences’ perceptions, with results varying significantly across studies. This inconsistency may stem from individual differences among study participants, suggesting that future research might continue to yield varied outcomes rather than a unified consensus. From a theoretical perspective, the MAIN model (Sundar, 2008) suggests that people’s pre-existing beliefs about machines, shaped by their knowledge and experience, influence their perceptions. When engaging with machine-generated content, these beliefs often activate "machine heuristics"—mental shortcuts triggered by machine interface cues.
-
-<br>
-<br>
-
-## Study design
-We used the GPT-4 Turbo model to create AI-authored news articles. The model’s input consisted of published articles, with the goal of generating summaries in short paragraphs for a general audience. Specific guidelines instructed the model to refer to the original authors in the third person (e.g., "the authors" or "the researchers") and to ensure accessibility for a wider public audience. All provided quotes were required to be incorporated directly into the output.
-
-These AI-generated articles were then compared to the original scientific articles written by journalists based on the same published papers.
-
-<br>
-<br>
-
-## Hypothesized Framework
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/diagram.png" title="" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="p-row">
+  <div class="p-label">Summary</div>
+  <div class="p-value">
+The rise of LLMs has ushered in a wave of conversational search engines. These interfaces allow people to engage in dialogues with LLM-infused chatbots to seek information. However, as people tend to infer personalities from digital social interactions, and given that personalities have been shown to affect credibility, these perceptions of chatbot design may affect assessments of information credibility. In this study, we conducted a controlled online study with 190 participants. We found that in conversational search, perceived conscientiousness and agreeableness of a chatbot can increase credibility, while perceived extraversion and neuroticism can decrease the credibility of the search results. This research contributes to our understanding of how conversational interfaces and their personality and persona designs can impact credibility. We also provide design implications for conversational search interfaces based on our findings.
+  </div>
 </div>
 
+<div class="p-row">
+  <div class="p-label">My role</div>
+  <div class="p-value">Project lead </div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">Collaborators</div>
+  <div class="p-value">Uran Oh, Gary Hsieh</div>
+</div>
+
+
+
+### Sample conversational exchanges
+<br>
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/t1-he.png" title="Chatbot A" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/t1-be.png" title="Chatbot B" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/t1-le.png" title="Chatbot C" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 <br>
 <br>

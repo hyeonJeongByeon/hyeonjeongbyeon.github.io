@@ -1,0 +1,30 @@
+{%- assign p = include.project -%}
+{%- assign thumb = p.img | default: p.thumbnail | default: p.image -%}
+
+<div class="project-card" data-project-id="{{ p.slug | default: p.title | slugify }}">
+  <button class="project-toggle">
+    {% if thumb %}
+      <div class="project-thumb">
+        <img src="{{ thumb | relative_url }}" alt="{{ p.title }}">
+      </div>
+    {% endif %}
+    <div class="project-header-text">
+      <h3 class="project-title">{{ p.title }}</h3>
+      {% if p.keywords %}
+  <div class="project-keywords">
+    {% for kw in p.keywords %}
+      <span class="project-pill">{{ kw }}</span>
+    {% endfor %}
+  </div>
+{% endif %}
+
+    </div>
+    <span class="project-toggle-icon">+</span>
+  </button>
+
+  <div class="project-body">
+    <div class="project-long-description">
+      {{ p.content }}
+    </div>
+  </div>
+</div>

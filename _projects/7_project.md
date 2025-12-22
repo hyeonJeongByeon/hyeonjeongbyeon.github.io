@@ -1,56 +1,34 @@
 ---
 layout: page
-title: College Festival Website
-description: Making college festivals more accessible by using websites
-img: assets/img/festival.jpg
+title: Client & Clinician Match
+description: Exploring opportunities to support better clinical communication
+img: assets/img/health.png
 importance: 7
-category: completed
+keywords:
+  - Decision making
+  - Trust
+  - Persona matching
+  - Persona search
 ---
+<div class="p-row">
+  <div class="p-label">Summary</div>
+  <div class="p-value">
+  The client-clinician relationship is crucial for the success of mental health care treatments. However, the process of finding a well-matched clinician remains challenging for many individuals, particularly those new to mental healthcare. In this study, we explore the dynamic journey of experiences and challenges clients face in navigating the clinician selection and engagement process. Through interviews with 22 participants who have interacted with multiple clinicians in the U.S., we identified key factors influencing their decisions to continue or change clinicians, as well as the resources they utilized during their search. While participants acknowledged the importance of factors previous research noted in their clinician match and therapeutic alliance, they also experienced difficulty assessing these characteristics before engagement. Our findings highlight opportunities to improve upon the process by which people match clinicians, including the limited effectiveness of existing technology and the need for personalized guidance.
 
-## Overview
-Episode, Ewha project focuses on enhancing the accessibility and enjoyment of college festivals through an online platform.
-
-<br>
-
-### Visit Our Website
-For a detailed experience of our project and its features, visit the website:
-
-[Episode, Ewha](http://ewhafestival2019.herokuapp.com/) - (Note: This link is currently closed)
-
-<br>
-
-### Image Showcase
-- Screenshot of the first page of Episode, Ewha 
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/episode1.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/episode2.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/episode3.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  </div>
 </div>
 
-<br>
-
-- Detailed functions of Episode, Ewha
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/episode4.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/episode5.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/episode6.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="p-row">
+  <div class="p-label">My role</div>
+  <div class="p-value">Project lead</div>
 </div>
 
-<br>
+<div class="p-row">
+  <div class="p-label">Collaborators</div>
+  <div class="p-value">John C. Fortney, Sean A. Munson</div>
+</div>
 
-### My role
-- I took part as a member of the back-end development team.
+
+
+
+

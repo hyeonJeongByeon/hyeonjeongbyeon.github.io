@@ -1,32 +1,35 @@
 ---
 layout: page
-title: Voice Customization
-description: Supporting customizable voice personas for online communication
-img: assets/img/avocus.png
-importance: 2
-category: completed
-related_publications: byeon2023avocus, byeon2022voice
+title: Science Communication Through Short-form Videos
+description: Translating papers into short form videos
+img: assets/img/paper-prototype.png
+importance: 4
+keywords:
+  - Credibility
+  - Science communication
+  - Translational science
+  - Generative AI tools
 ---
-## Abstract
+<div class="p-row">
+  <div class="p-label">Summary</div>
+  <div class="p-value">
+The dissemination of scholarly research is critical, yet researchers often lack the time and skills to create engaging content for popular media like short-form videos. To bridge this gap, we explore the use of generative AI to help researchers transform their academic papers into accessible, short-form videos. Informed by our formative study (N=8) with science communicators and content creators, we designed PaperTok, an end-to-end system that generates an integrated first draft through automating the initial creative labor by generating script options and corresponding audiovisual content from a source paper. Then, the researcher refines based on their preferences with further prompting. A mixed-methods user study (N=18) and crowdsourced evaluation (N=100) demonstrate that PaperTok's workflow can help researchers create engaging and informative short-form videos. We also identified the need for more fine-grained controls in the creation process. To this end, we offer implications for future generative tools that support science outreach.
 
-Many digital applications offer avatar customization options, positively affecting user experience. However, the adoption of auditory aspects in avatar customization has often been neglected and may have been understudied for its potential. Inspired by prior research that uncovers end-user’s demands for voice customization, we seek to apply the identified implications into practice and discover enduser’s voice preferences and behavior towards voice customization systems. To this end, we designed and deployed AVOCUS, a web application that enables users to search for specific voices or manipulate voice-related parameters to generate a voice similar to a target voice. Our findings suggest that (1) searching for specific voice using hashtags were perceived to be easy, (2) customized voices generated from voice reflection and voice parameter control functions had high satisfaction, and (3) participants tend to reflect the features of their desired voices when customizing their own voice.
-
-<br>
-
-## Project Overview
-As a follow-up study to our CHI 22 publication, we developed a voice customizing web app and conducted user testing. In this app, users can upload a target voice they wish to resemble, and either upload their own voice or record it directly through the interface. By adjusting the similarity to the target voice and fine-tuning specific attribute values, the app generates a customized voice output within seconds. Although traditional voice generation typically requires AI models and large datasets, this study is significant in presenting an alternative approach that does not rely on such resources.
-
-<br>
-
-
-## System Overview
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/avocus.png" title="Search Engine Interface" class="img-fluid rounded z-depth-1" %}
-    </div>
+  </div>
 </div>
 
-<br>
-<br>
+<div class="p-row">
+  <div class="p-label">My role</div>
+  <div class="p-value">
+  Examined credibility and the role of human input in AI-assisted science communication. Conducted interviews with science communicators and content creators, and usability studies with HCI researchers to understand how human involvement shapes trust and quality.
+</div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">Collaborators</div>
+  <div class="p-value">Members of the Prosocial Computing Lab with equal contribution</div>
+</div>
+
+
 
 

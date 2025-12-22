@@ -1,17 +1,31 @@
 ---
 layout: page
-title: Health Distresser Detection
-description: Using language models to detect mental health distressers from ePAT data
-img: assets/img/bert.png
-importance: 4
-category: completed
-related_publications: byeon2021comparing
+title: AYA-Chat
+description: Clover chatbot convo design 
+img: assets/img/AYA-prototype.png
+importance: 6
+keywords:
+  - Conversation design
+  - Theory-driven intervention
+  - Translating research to practice
+
 ---
+<div class="p-row">
+  <div class="p-label">Summary</div>
+  <div class="p-value">
+  This project explores how theory-based intervention exercises can be translated into lightweight, everyday conversations through a text-based chatbot. Rather than standalone clinical tools, we investigate conversational designs that reduce burden and fit naturally into daily routines. Focusing on adolescent and young adult (AYA) cancer survivors, we examine how intervention content should be tailored to a specific population without over-personalizing or increasing interactional complexity. Grounded in established psychosocial theories, the work bridges research findings and practical conversational interventions.
+  </div>
+</div>
 
-## Abstract
+<div class="p-row">
+  <div class="p-label">My role</div>
+  <div class="p-value">Project lead</div>
+</div>
+
+<div class="p-row">
+  <div class="p-label">Collaborators</div>
+  <div class="p-value">Seattle Children's Hospital, Nancy Lau, Gary Hsieh</div>
+</div>
 
 
-Patients often share information about their symptoms online by posting on web communities and SNS. While these posting data have been proven to be useful for improving psychological therapy experiences, little has known if and how the same approach can be applied to Korean. This paper investigates the performance of bidirectional language models. Results show that both multi-lingual BERT model and KoBERT (Korean BERT) model perform well on binary sentiment classification, reaching an accuracy of 90%. In addition, bcLSTM models outperformed on emotion recognition that classifies casual texts into Paul Ekman’s six emotions than positive/neutral/negative sentiment analysis. Through this research, we concluded that in order to utilize sentiment analysis models in psychological therapies, additional layer that detects certain psychological symptoms are necessary. As our future task, we are looking forward to propose a new deep learning model that detects emotion disorders.
 
-<br>
-<br>
